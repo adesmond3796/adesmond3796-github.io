@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id=”wrapper>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/challenge.html">Challenge</a></li>
+                <li><a href="form.html">Recipe</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="intro">
+            <h1>Reserve Your Room</h1>
+            <h2>Our Reservations Policies</h2>
+        </header>
+        <section class="Policies">
+            <ul>
+                <li>Check-in time after 3:00pm on</li>
+                <li>Check-out time by 11:00am or charges are incurred</li>
+                <li>Breakfast and afternoon tea/snacks included in cost</li>
+                <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+                <li>50% deposit required at booking</li>
+                <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+            </ul>
+        </section>
+        <section class="Reserve">
+            <form method="post" name="reservation" data-netlify="true">
+                <div>
+                    <label for="First Name:">First Name:</label>
+                    <input type="text" name="First Name" id="First Name" placeholder="First Name" required>
+                </div>
+
+                <div>
+                    <label for="Last Name:">Last Name</label>
+                    <input type="text" name="Last Name" id="Last Name" placeholder="Last Name" required>
+                </div>
+
+                <div>
+                    <label for="Email:">Email:</label>
+                    <input type="email" name="Email" id="Email" placeholder="Email" required>
+                </div>
+
+                <div>
+                    <label for="Phone:">Phone:</label>
+                    <input type="tel" name="Phone" id="Phone" placeholder="Phone" required>
+                </div>
+
+                <div>
+                    <label for="Check-In Date:">Check-In Date:</label>
+                    <input type="date" name="Check-In Date:" id="Check-In Date:" placeholder="Check-In Date:" required>
+                </div>
+
+                <div>
+                    <label for="Check-Out Date:">Check-Out Date:</label>
+                    <input type="date" name="Check-Out Date:" id="Check-Out Date:" placeholder="Check-Out Date:" required>
+                </div>
+
+                <div>
+                    <label for="Number of Guests (4 is maximum):">Number of Guests (4 is maximum):</label>
+                    <input type="number" min="1" max="4" name="Number of Guests (4 is maximum):" id="Number of Guests (4 is maximum):" placeholder="Number of Guests (4 is maximum):" required>
+                </div>
+
+                <div>
+                    <label>Room Type</label>
+                    <select>
+                        <option value="Room 1"> Room 1</option>
+                        <option value="Room 2"> Room 2</option>
+                        <option value="Room 3"> Room 3</option>
+                    </select> 
+                </div>
+                <label for="Ocean View (additional cost):">Ocean View (additional cost):</label><br>
+                    <input type="radio" id="Yes" name="question" value="Yes">
+                    <label for="Yes">Yes</label><br>
+                    <input type="radio" id="No" name="question" value="No">
+                    <label for="No">No</label><br>
+                <div>
+
+                <div>
+                    <label>List of Allergies and Other Requests:</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                <label for="Vaccine Proof:">Upload Vaccine Proof:</label>
+                <input type="file" id="Vaccine Proof:" name="Vaccine Proof:" accept="image/png, image/jpeg" not required/>
+                </div> 
+
+                <div>
+                    <label for="Agree to Terms">I Agree to the Terms Listed Above</label>
+                    <input type="checkbox" id="Agree to Terms" name="Agree to Terms" value="Agree to Terms">
+                </div>
+
+                <div>
+                    <label for="Password:">Password:</label>
+                    <input type="password" name="Password" id="Password" placeholder="Password" required>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+                <div></div>
+                    <input type="reset" value="Reset">
+                </div>
+
+         
+
+            </form>
+        </section>
+
+
+
+    </div> 
+</body>
+</html>
