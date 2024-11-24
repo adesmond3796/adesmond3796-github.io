@@ -123,6 +123,11 @@ span {
     margin-bottom: 20px;
 }
 
+#header-image {
+    top: 10px;
+    position: relative;
+}
+
 
 
 
