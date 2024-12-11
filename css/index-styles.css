@@ -93,7 +93,7 @@ ul {
 
 #header-text {
     position: absolute;
-    top: 250px;
+    top: 150px;
     left: 300px;
     right: 300px;
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; font-style: bold; font-variant: bold;
@@ -119,6 +119,24 @@ ul {
     font-family: 'Montserrat';
 }
 
+#header-image {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  #header-text {
+    font-family: Montserrat;
+    animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 
 
